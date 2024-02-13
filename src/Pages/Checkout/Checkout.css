@@ -1,0 +1,113 @@
+.checkoutMain {
+    background-color: #F8FCFF;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.formMain {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: .5px solid rgba(128, 128, 128, 0.306);
+}
+
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.twoFlex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.808);
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.singleFlex {
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.808);
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.singleFlex div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.orderedProd {
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.808);
+    margin-top: 10px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderedProd .imgNtitParent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.orderedProd .imgNtitParent .imgNtitle {
+    display: flex;
+}
+
+.orderedProd img {
+    width: 60px;
+    max-width: 100px;
+}
+
+.orderedProd .quanPrice1{
+    width: 90px;
+    min-width: 70px;
+}
+
+.orderedProd .quanPrice2 {
+    width: 50px;
+    min-width: 40px;
+}
+
+.orderedProd .quanPrice2 {
+    text-align: right;
+}
+
+.orderProduct .codText {
+    margin-top: 10px;
+}
+
+.orderProduct .codText {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.orderConfirmBtn {
+    font-size: 22px !important;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(59, 189, 241);
+    color: white;
+    border: none;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.errorMsg {
+    text-align: center;
+    color: red;
+    font-size: 17px;
+}
+
+
+
+@media only screen and (max-width:500px){
+    .orderConfirmBtn {
+        font-size: 20px !important;
+    }
+}

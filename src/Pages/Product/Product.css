@@ -1,0 +1,67 @@
+.singleLink {
+    text-decoration: none;
+    color: black;
+}
+
+.prouct-box {
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.34);
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.discount {
+    position: absolute;
+    color: red;
+}
+
+.prouct-box .title {
+    color: black;
+}
+
+.priceNreview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.priceNreview .bdt {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.priceNreview .priceCut {
+    color: rgba(128, 128, 128, 0.764);
+}
+
+.priceNreview .price {
+    font-size: 20px;
+    color: #ffaa00;
+}
+
+.priceNreview .reviews {
+    font-size: 15px;
+    color: gray;
+    font-weight: 400;
+}
+
+.prouct-box .orderBtn {
+    color: white;
+    background-color: rgb(59, 189, 241);
+    border: none;
+    padding: 8px 25px;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
